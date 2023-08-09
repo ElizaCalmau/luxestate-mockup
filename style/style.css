@@ -140,8 +140,7 @@ a{
     height: 30em;
 }
 .discriber{
-    width: 49%;
-    height: 78%;    
+    width: 44%;
 }
 .discriber h3{
     font-size: 40px;
@@ -153,10 +152,10 @@ a{
 .paragraps_discriber {
     color: #1F373D;
     font-size: 13px;
-    line-height: 30px;
+    line-height: 27px;
 }
 .paragraps_discriber p + p{
-    margin: 30px 0;
+    margin: 18px 0;
 }
 
 .statistics_visualisation{
@@ -164,9 +163,24 @@ a{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     align-items: center;
+    height: fit-content;
     gap: 15px;
 }
 .stat_item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
     background-color: #F6F5F4;
-    height: -webkit-fill-available;
+    color: #1F373D;
+    font-weight: 600;
+    width: 12em;
+    height: 12em;
+}
+
+.stat_item span{
+    color: #FFCC01;
+    font-size: 34px;
 }
